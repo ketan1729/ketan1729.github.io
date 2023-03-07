@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ketan Bedarkar | Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="icon_k.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="line"></div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header id="masthead" class="s-header">
+
+             <div class="s-header__block">
+                <div class="s-header__branding">
+                    <p class="site-title">
+                        <a href="#intro" class="smoothscroll" rel="home">
+                            <img src="icon_k.png" width="30" height="30">
+                            <span style="font-style: italic;margin-left: -10px;">etan</span>
+                        </a>
+                    </p>
+                </div>
+
+                <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+            </div> <!-- end s-header__block -->
+
+            <div class="row s-header__nav-wrap">
+
+                <nav class="s-header__nav">
+                    <ul>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#skills" class="smoothscroll">Skills</a></li>
+                        <li><a href="#works" class="smoothscroll">Projects</a></li>
+                        <li><a href="#colophon" class="smoothscroll">Contact Me</a></li>
+                    </ul>
+                </nav> <!-- end s-header__nav -->
+
+                <ul class="s-header__social">
+                    <li>
+                        <a href="KetanBedarkar_Resume.pdf">
+                            <img src="images/icons/resume.png" title="Download Resume" width="25" height="23" style="margin-bottom: 0;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ketan-bedarkar-b92a592b/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" title="LinkedIn" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"></path></svg>
+                            <span class="u-screen-reader-text">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/ketan.bedarkarr">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" title="Facebook" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                            <span class="u-screen-reader-text">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ketan1729">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" title="Github" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg>
+                            <span class="u-screen-reader-text">Github</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:ketan.bedarkar@rutgers.edu">
+                            <img src="images/icons/email-14-svgrepo-com.svg" title="Email Me" width="30" height="27" style="margin-bottom: 0;">
+                        </a>
+                    </li>
+                </ul>  <!-- end s-header__social -->
+
+            </div> <!-- end s-header__nav-wrap -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- intro
+        ================================================== -->
+        <section id="intro" class="s-intro">
+
+            <div class="row">
+                <div class="column lg-12 s-intro__content">
+
+                    <div class="s-intro__bg lg-6"></div>
+
+                    <div class="s-intro__text lg-6">
+                        <h1 class="s-intro__text-huge animate-on-load">
+                            Ketan Bedarkar
+                        </h1>
+                        <h3 class="animate-on-load" style="padding-top: 1rem;">Software Developer</h3>
+                    </div>
+
+                </div>
+            </div>
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- about
+        ================================================== -->
+        <section id="about" class="s-about">
+
+
+            <div class="s-about__block s-about__intro">
+
+                <div class="row">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle animate-on-load">About Me</h2>
+    
+                        <p class="attention-getter animate-on-load">
+                        I'm a 2nd year CS graduate student at Rutgers University, New Jersey. I have 3 years of industry experience where I 
+                        worked as a Full Stack developer. I am a quick learner with a can-do attitude and excellent time management skills. 
+                        Looking forward to working in a software development firm that is conducive to learning and helps me grow professionally.
+                        </p>
+                    </div>
+                </div>
+
+            </div> <!-- end s-about__intro -->
+
+
+            <div class="s-about__block s-about__career">
+
+                <div class="row s-about__career-header">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">Education, Work Experience & Skills</h2>
+                    </div>
+                </div>
+
+                <div class="row s-about__timeline" data-animate-block>
+                    <div class="column lg-6 stack-on-900 s-about__timeline-section" data-animate-el>
+    
+                        <h2 class="text-subtitle">
+                            Experience
+                        </h2>
+    
+                        <div class="timeline">
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">PPG Industries</h3>
+                                    <h5 class="timeline__meta">Digital Architect Intern</h5>
+                                    <p class="timeline__timeframe">May 2022 - August 2022</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Designed and developed a streamlined data pipeline execution
+                                        process to have a single interaction point for business users to
+                                        optimize secure data migration.</p>
+                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">eQ Technologic</h4>
+                                    <h5 class="timeline__meta">Software Engineer</h5>
+                                    <p class="timeline__timeframe">October 2018 - July 2021</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Worked as a Full Stack developer on web applications for data
+                                        synchronization across multiple systems.</p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+    
+                    </div> <!-- end s-about__timeline-section -->
+    
+                    <div class="column lg-6 stack-on-900 s-about__timeline-section" data-animate-el>
+    
+                        <h2 class="text-subtitle">
+                            Education
+                        </h2>
+    
+                        <div class="timeline">
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Rutgers University</h3>
+                                    <h5 class="timeline__meta">Masters in Computer Science</h5>
+                                    <p class="timeline__timeframe">Aug 2021 - May 2023</p>
+                                </div>
+                                <!-- <div class="timeline__desc">
+                                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                                </div> -->
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Pune University</h4>
+                                    <h5 class="timeline__meta">Bachelors in Computer Science</h5>
+                                    <p class="timeline__timeframe">July 2014 - May 2018</p>
+                                </div>
+                                <!-- <div class="timeline__desc">
+                                    <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                                </div> -->
+                            </div>
+    
+                        </div> <!-- end timeline -->
+                        
+                    </div> <!-- end s-about__timeline-section -->
+    
+                </div> <!-- end about__timeline -->
+            </div>
+        <!-- </section>
+
+        <section id="skills" class="s-about"> -->
+            <div id="skills" class="row s-about__skills" data-animate-block>
+                <div class="column lg-12" data-animate-el>
+
+                    <h2 class="text-subtitle">
+                        Skills & Expertise
+                    </h2>
+
+                    <ul class="skill-bars">
+                        <li>
+                        <div class="progress percent95"></div>
+                        <strong>Java</strong>
+                        <div class="skill-percent">95%</div>
+                        </li>
+                        <li>
+                        <div class="progress percent90"></div>
+                        <strong>Python</strong>
+                        <div class="skill-percent">90%</div>
+                        </li>
+                        <li>
+                        <div class="progress percent85"></div>
+                        <strong>JavaScript</strong>
+                        <div class="skill-percent">85%</div>
+                        </li>
+                        <li>
+                        <div class="progress percent90"></div>
+                        <strong>SQL and MongoDB</strong>
+                        <div class="skill-percent">90%</div>
+                        </li>
+                        <li>
+                        <div class="progress percent85"></div>
+                        <strong>Spring Framework</strong>
+                        <div class="skill-percent">85%</div>
+                        </li>
+                        <li>
+                        <div class="progress percent80"></div>
+                        <strong>Apache Maven</strong>
+                        <div class="skill-percent">80%</div>
+                        </li>
+                        <li>
+                        <div class="progress percent75"></div>
+                        <strong>Backbone JS</strong>
+                        <div class="skill-percent">75%</div>
+                        </li>
+                        <li>
+                        <div class="progress percent70"></div>
+                        <strong>Angular JS</strong>
+                        <div class="skill-percent">70%</div>
+                        </li>
+                        <li>
+                        <div class="progress percent75"></div>
+                        <strong>Apache Spark</strong>
+                        <div class="skill-percent">75%</div>
+                        </li>
+                        <li>
+                        <div class="progress percent90"></div>
+                        <strong>Git and Tortoise SVN</strong>
+                        <div class="skill-percent">90%</div>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+            </div> <!-- end s-about__skills -->
+
+        </section> <!-- end s-about -->
+
+
+        <!-- # works
+        ================================================== -->
+        <section id="works" class="s-works">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <h2 class="text-pretitle">Projects</h2>
+                </div>
+            </div>
+
+            <div class="row folio-list block-lg-one-half block-stack-on-550" data-animate-block>
+
+                <!----------------------- 1st project ------------------>
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <img src="images/project_pics/sentiment_analysis.jpg" title="Sentiment Analyser">
+                        </div>
+                        <div class="folio-item__info">
+                            <h4 class="folio-item__title">
+                                <a href="https://github.com/ketan1729/SentimentAnalyser" title="Sentiment Analyser" class="project-link">Sentiment Analyser</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+
+
+                <!----------------------- 2nd project ------------------>
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <img src="images/project_pics/R.jpg" title="KOBE">
+                        </div>
+                        <div class="folio-item__info">
+                            <h4 class="folio-item__title">
+                                <a href="https://github.com/ketan1729/KOBE-BasketballMetricAnalyser" title="KOBE" class="project-link">KOBE</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+
+
+                <!----------------------- 3rd project ------------------>
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <img src="images/project_pics/instacart.jpg" title="Instacart">
+                        </div>
+                        <div class="folio-item__info">
+                            <h4 class="folio-item__title">
+                                <a href="https://github.com/ketan1729/instacart" title="Instacart" class="project-link">Instacart</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+
+
+                <!----------------------- 4th project ------------------>
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <img src="images/project_pics/autograder.png" title="Autograder">
+                        </div>
+                        <div class="folio-item__info">
+                            <h4 class="folio-item__title">
+                                <a href="https://github.com/ketan1729/autograder" title="Autograder" class="project-link">Autograder</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+
+
+                <!----------------------- 5th project ------------------>
+                <!-- <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-tropical.jpg" title="Tropical" data-size="1050x700">
+                                <img src="images/portfolio/rucksack.jpg" 
+                                     srcset="images/portfolio/tropical.jpg 1x, images/portfolio/tropical@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">Product Design</span>
+                                <a href="https://www.behance.net/" title="Project Link" class="project-link">Project Link</a>
+                            </div>
+                            <h4 class="folio-item__title">Tropical</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- end column -->
+
+
+                <!----------------------- 6th project ------------------>
+                <!--<div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg" 
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">Branding</span>
+                                <a href="https://www.behance.net/" title="Project Link" class="project-link">Project Link</a>
+                            </div>
+                            <h4 class="folio-item__title">Woodcraft</h4>
+                        </div>
+                    </div>
+                </div>  -->
+                <!-- end column -->
+    
+            </div> <!-- folio-list -->
+        </section> <!-- end s-works -->
+
+
+        <!-- # site footer
+        ================================================== -->
+        <footer id="colophon" class="s-footer">
+
+            <div class="row s-footer__contact-header">
+                <div class="column lg-12">
+                    <h2 class="text-pretitle">Get In Touch</h2>
+
+                    <!-- <p class="text-huge-title">
+                        Feel free to reach out if you wanna collaborate with me, or simply have a chat.
+                    </p> -->
+                </div>
+            </div> <!-- end s-footer__content -->
+
+            <div class="row s-footer__contact-content">
+
+                <div class="column lg-5 md-6 stack-on-900 left-block">
+                    <div class="s-footer__buttons">
+                        <a href="mailto:ketan.bedarkar@rutgers.edu" class="btn btn--primary u-fullwidth">Say Hello</a>
+                        <a href="KetanBedarkar_Resume.pdf" class="btn btn--stroke u-fullwidth" download="KetanBedarkar_Resume.pdf">Get My CV</a>
+                    </div>
+                </div>
+
+                <div class="column lg-4 md-5 stack-on-900 right-block">
+                    <div class="s-footer__social">
+                        <h2 class="text-subtitle">
+                            Connect
+                        </h2>
+                        <ul class="link-list">
+                            <li><a href="https://www.linkedin.com/in/ketan-bedarkar-b92a592b/">LinkedIn</a></li>
+                            <li><a href="https://www.facebook.com/ketan.bedarkarr">Facebook</a></li>
+                            <li><a href="https://github.com/ketan1729">Github</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div> <!-- end s-footer__contact-content -->
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end s-pagewrap -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> 
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
